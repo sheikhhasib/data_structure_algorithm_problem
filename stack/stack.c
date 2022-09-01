@@ -1,35 +1,7 @@
-// Student ID: 2021200010011
-// Name: Hasibul Hossain Santo Sheikh
-
-
-// question section start 
-
-// implement a stack. insertion and deletion follow Last in first out.
-// Sample input:
-// push(5)
-// Push(10)
-// Push(12)
-// show stack
-// 12
-// 10
-// 5
-// Pop()
-// show stack 
-// 10
-// 5
-// Pop()
-// show stack
-// 5
-
-// question end 
-
 #include <stdio.h>
 
-
 int maxSize = 8;
-
 int stack[8];
-
 int top = -1;
 
 // Checking if array is empty
